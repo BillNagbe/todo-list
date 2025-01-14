@@ -1,0 +1,58 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+button, input {
+    box-shadow: 1px 1px 1px 1px #000;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-container {
+    width: 75vw;
+    height: 50vh;
+    outline: 1px solid;
+    border-radius: 15px;
+    box-shadow: 2.5px 1px 1px 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 5%;
+}
+
+.main-container header {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do-list-container {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.edit-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-do-list-container-items-container {
+    outline: 1px solid #000;
+    height: 80%;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 2.5px 1px 1px 1px #000;
+}
+
+.add-submit-container {
+    display: flex;
+    justify-content: space-evenly;
+}
